@@ -19,23 +19,26 @@
 
 
 <body>
-    <header>
-      <nav class="navbar">
+  <div id="backdrop"></div>
+    <header id="main-header">
+      <!-- <nav class="navbar">
         <form class="container-fluid justify-content-start">
           <button class="btn btn-outline-success me-2" type="button">Home</button>
           <button class="btn btn-sm btn-outline-secondary" type="button">Start</button>
           <button class="btn btn-sm btn-outline-secondary right" type="button">Reset</button>
         </form>
-      </nav>
-    <h1>Welcome to X's and O's</h1>
+      </nav> -->
+    <h1>Play X's and O's</h1>
     <h2>A 2 player game played with a friend</h2>
     <p>(Built using HTML, CSS and JavaScript)</p>  
   </header>
 
     <main>
+
       <!-- Configure player names -->
-       <aside class="modal">
-        <h2>Choose your name</h2>
+       <aside id="modal" id="config-overlay">
+        <h2>Choose your name!</h2>
+
         <form>
           <div>
             <label for="playername">Player Name</label>
@@ -47,9 +50,8 @@
           </div>
         </form>
        </aside>
-      
 
-
+       
        <section id="game-config">
       <ol>
         <li>
