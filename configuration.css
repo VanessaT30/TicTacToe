@@ -1,1 +1,69 @@
+/* #config-overlay {
+    text-align: center;
+} */
+
+#config-overlay h2 {
+    margin: 0.5rem 0;
+
+}
+
+.form-control {
+    margin: 0.5rem 0;
+    border: none;
+}
+
+.form-control label {
+    display: block; /* forces a line break */
+    margin-bottom: 0.5rem; /* for spacing */
+    font-weight: bold;
+}
+
+.form-control input {
+    font: inherit; /* the button by default doesn't inherit the font */
+    border: 1px solid rgb(204, 204, 204);
+    width: 15rem;
+    padding: 0.35rem;
+}
+
+#game-config {
+    width: 90%;
+    max-width: 40rem;
+     margin: 3rem auto; /* 3rem top and bottom and auto for left and right to center*/
+    text-align: center;
+}
+
+#game-config ol{
+    list-style: none; /* gets rid of the numbers */
+    margin: 0; /* gets rid of default margin and padding */
+    padding: 0;
+    display: flex; /* puts them in the same line as it is the default for flex  */
+}
+
+#game-config li {
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%; /* splits them so they take up equal space */
+    background-color: rgb(243, 247, 255);
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgb(0, 0, 0, 0.2); 
+}
+
+#game-config h2 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+#game-config h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: rgb(226, 143, 66);
+}
+
+.player-symbol {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(43, 136, 241);
+    margin: 0.5rem 0;
+}
 
