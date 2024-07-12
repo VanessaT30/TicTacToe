@@ -1,15 +1,16 @@
 /* These are mobile styles  */
-#modal {
+.modal {
     position: fixed; /* Sit on top of the page content */
-    /*display: none;  Hidden by default */
     top: 20%;
     left: 5%;
     width: 90%; /* 90% width (cover the whole page) */
     background-color: white;
     padding: 1rem;
     border-radius: 6px;
-    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2); 
-     cursor: pointer; /* Add a pointer on hover */
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
+    cursor: pointer; /* Add a pointer on hover */
+    text-align: center;
+    display: none;  /*Hidden by default */
 }
 
 #backdrop {
@@ -19,12 +20,13 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-
+    display: none;  /*Hidden by default */
 }
 
 @media (min-width: 48rem) {
     .modal {
         left: calc(50% - 20rem);
         width: 40rem;
-    }
+        bottom: 200rem;
+}
 }
