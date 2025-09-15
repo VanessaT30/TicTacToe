@@ -12,7 +12,6 @@
 //     res.render("index");
 //   });
 
-<<<<<<< HEAD
 const playerConfigOverlay = document.getElementById("modal")
 const backdropElement = document.getElementById("backdrop")
 
@@ -63,21 +62,3 @@ const players = [
 //     gameOverElement.firstElementChild.innerHTML = 'You won, <span id="winner-name">PLAYER NAME</span>!';
 //     gameOverElement.style.display = "none";
 // }
-=======
-const playerConfigOverlay = document.getElementById('config-overlay');
-const backdropElement = document.getElementById('backdrop');
-const formElement = document.querySelector('form');
-
-const editPlayerO1btn = document.getElementById ('edit-player-1');
-const editPlayerO2btn = document.getElementById ('edit-player-2');
-const cancelconfigbtn = document.getElementById ('cancel-config-btn');
-
-
-//NOTE: No parentheses added here! We DO NOT want to execute it straight away!
-editPlayerO1btn.addEventListener('click', openPlayerConfig);
-editPlayerO2btn.addEventListener('click', openPlayerConfig);
-
-cancelconfigbtn.addEventListener('click', closePlayerConfig);
-backdropElement.addEventListener('click', closePlayerConfig);
-formElement.addEventListener('submit', savePlayerConfig);
->>>>>>> 247a037a7f2b45e3ed439c3a29f294ea4ae82c94
