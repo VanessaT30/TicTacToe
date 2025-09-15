@@ -2,11 +2,13 @@ body{
     margin: 0;
     font-family: DM Sans, sans-serif;
     color: rgb(46, 46, 46);
-    background-color: rgb(240, 234, 204);
+    background-color: rgba(56, 188, 240, 0.671);
 }
 
 header {
-    padding: 2rem 5%;
+    padding: 1rem 5%;
+    background-color: rgb(228, 135, 128);
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);;
 }
 
 header .navbar {
@@ -16,7 +18,7 @@ header .navbar {
 header .me-2{
     border-color: rgb(175, 79, 0);
     color: rgb(212, 67, 0);
-    background-color: rgb(253, 211, 183);
+    background-color: rgb(103, 236, 69);
 }
 
 header .btn-sm {
@@ -46,6 +48,8 @@ body header p {
     text-align: center;
 }
 
+
+
 .btn {
     font: inherit;
     padding: 0.5 1.5rem;
@@ -70,5 +74,5 @@ body header p {
 
 .btn-alt:hover {
     background-color: rgb(123, 202, 133);
-    border-color: rgb(45, 134, 45);;
+    border-color: transparent
 }
