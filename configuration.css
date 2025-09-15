@@ -4,6 +4,7 @@
 
 #config-overlay h2 {
     margin: 0.5rem 0;
+
 }
 
 .form-control {
@@ -65,3 +66,11 @@
     color: rgb(43, 136, 241);
     margin: 0.5rem 0;
 }
+
+#message {
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+
+}
+
+/* b14c57536349800b3e2564603c010303a46be701 */
