@@ -1,7 +1,7 @@
 #active-game {
     text-align: center;
      margin: 2rem 0 5rem 0; /* top, right, bottom, left */
-    /* display: none; */
+    display: none;
 }
 
 /* Overlay to display game is over */
@@ -10,7 +10,7 @@
     margin: auto;
     width: 90%; /* 90% width (cover the whole page) */
     padding: 1rem 2rem;
-    background-color: rgb(228, 135, 128);
+    background-color: rgb(151, 228, 128);
     /* color: white; */
     box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -43,8 +43,8 @@
     justify-content: center;
     gap: 0.5rem; /* Adds gap between boxes. 
     Adds a row and column gap between items in the grid (or even use margin to do it) */
+    caret-color: transparent;
 }
-
 
 #game-board li {
     background-color: rgb(48, 147, 228);
@@ -71,4 +71,6 @@
     cursor: default; /*  */
 }
 
-/* rgb(78, 60, 216); */
+p {
+    margin-top: 1rem;
+}
