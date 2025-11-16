@@ -42,8 +42,8 @@ submit.addEventListener("click", (e) => {
 
         if (playername.value == '') {
             error.textContent = 'Please enter a valid name!';
-            name1.textContent = 'PLAYER NAME';            
-            return;         
+            name1.textContent = 'PLAYER NAME';
+            return;
         }
 
         // console.log("updated player 1");
@@ -55,8 +55,8 @@ submit.addEventListener("click", (e) => {
 
         if (playername.value == '') {
             error.textContent = 'Please enter a valid name!';
-            name2.textContent = 'PLAYER NAME';            
-            return;         
+            name2.textContent = 'PLAYER NAME';
+            return;
         }
         // console.log("updated player 2");
     }
@@ -102,25 +102,25 @@ function closeConfig() {
 //     playername = playername.value
 // }
 
-function openPlayerConfig() {
-    playerConfigOverlay.style.display = 'block';
-    backdropElement.style.display = 'block';
-}
+// function openPlayerConfig() {
+//     playerConfigOverlay.style.display = 'block';
+//     backdropElement.style.display = 'block';
+// }
 
-function closePlayerConfig() {
-    playerConfigOverlay.style.display = 'none';
-    backdropElement.style.display = 'none';
-}
+// function closePlayerConfig() {
+//     playerConfigOverlay.style.display = 'none';
+//     backdropElement.style.display = 'none';
+// }
 
-function savePlayerConfig (event) {
-    event.preventDefault();
-    console.log(event);
+// function savePlayerConfig (event) {
+//     event.preventDefault();
+//     console.log(event);
 
-    // const formData = {};
-    // instantiating an object based on an object blueprint
-    // .target points at the HTML element
-    const formData = new FormData(event.target);
-    const enteredPlayername = formData.get('playername');
-    console.log(enteredPlayername);
-}
+//     // const formData = {};
+//     // instantiating an object based on an object blueprint
+//     // .target points at the HTML element
+//     const formData = new FormData(event.target);
+//     const enteredPlayername = formData.get('playername');
+//     console.log(enteredPlayername);
+// }
 
